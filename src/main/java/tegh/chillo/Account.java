@@ -1,7 +1,7 @@
 package tegh.chillo;
 
 public class Account {
-    private int acountNo;
+    static int acountNo = 1;
     private String name;
     private  float amount;
 

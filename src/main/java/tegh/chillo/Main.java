@@ -37,21 +37,43 @@ public class Main {
 //        a1.checkBalance();
 //        System.out.println(a1.toString());
 
-        System.out.println("No args constructor");
-        Product p1 = new Product();
-        p1.display();
-        System.out.println("---------------------------------");
-        System.out.println("Parametrize constructor");
-        Product p2 = new Product("camera","2088",198,18,17);
-        p2.display();
-        System.out.println("-------------------------------------");
-        System.out.println("chaining constructor");
-        Product p3 = new Product("camera","2088",198,18,17,"red");
-        p3.display();
-        System.out.println("-----------------------------------");
-        System.out.println("copy constructor");
-        Product p4 = new Product(p3);
-        p4.display();
+//        System.out.println("No args constructor");
+//        Product p1 = new Product();
+//        p1.display();
+//        System.out.println("---------------------------------");
+//        System.out.println("Parametrize constructor");
+//        Product p2 = new Product("camera","2088",198,18,17);
+//        p2.display();
+//        System.out.println("-------------------------------------");
+//        System.out.println("chaining constructor");
+//        Product p3 = new Product("camera","2088",198,18,17,"red");
+//        p3.display();
+//        System.out.println("-----------------------------------");
+//        System.out.println("copy constructor");
+//        Product p4 = new Product(p3);
+//        p4.display();
+
+//           Student s1 = new Student("achraf");
+//           Student s2 = new Student("acdwd");
+//           Student s3 = new Student("acd");
+//           System.out.println(s1.toString());
+//           System.out.println(s2.toString());
+//           System.out.println(s3.toString());
+//           Student.display();
+
+        Student s1 = new Student("ali","123");
+        Student s2 = new Student("achraf","456");
+        Student s3 = new Student("acc","789");
+        System.out.println(s1.logIn(1,"123"));
+        System.out.println(s2.logIn(2,"456"));
+        System.out.println(Student.validatePassword(s1.getPassword()));
+
+        OuterClass.InnerClass innerClass = new OuterClass.InnerClass();
+        innerClass.print();
+
+
+
+
     }
 }
 
