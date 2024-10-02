@@ -61,19 +61,33 @@ public class Main {
 //           System.out.println(s3.toString());
 //           Student.display();
 
-        Student s1 = new Student("ali","123");
-        Student s2 = new Student("achraf","456");
-        Student s3 = new Student("acc","789");
-        System.out.println(s1.logIn(1,"123"));
-        System.out.println(s2.logIn(2,"456"));
-        System.out.println(Student.validatePassword(s1.getPassword()));
+//        Student s1 = new Student("ali","123");
+//        Student s2 = new Student("achraf","456");
+//        Student s3 = new Student("acc","789");
+//        System.out.println(s1.logIn(1,"123"));
+//        System.out.println(s2.logIn(2,"456"));
+//        System.out.println(Student.validatePassword(s1.getPassword()));
+//
+//        OuterClass.InnerClass innerClass = new OuterClass.InnerClass();
+//        innerClass.print();
 
-        OuterClass.InnerClass innerClass = new OuterClass.InnerClass();
-        innerClass.print();
+        Test obj = new Test();
+        obj.number = 1;
+        fun(obj);
+//        System.out.println(obj.number) ;
+        Math n1 = new Math(2);
+        Math n2 = new Math(3);
+        Math n4 = new Math(5);
+//      Math n3 = Math.add(n1,n2);
+        Math n3 = n1.add(n2);
+        System.out.println(n1.val);
+        System.out.println(n3.isEqual(n4));
 
 
+    }
 
-
+    static void fun(Test n){
+        n.number++;
     }
 }
 
