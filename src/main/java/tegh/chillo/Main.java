@@ -71,24 +71,30 @@ public class Main {
 //        OuterClass.InnerClass innerClass = new OuterClass.InnerClass();
 //        innerClass.print();
 
-        Test obj = new Test();
-        obj.number = 1;
-        fun(obj);
-//        System.out.println(obj.number) ;
-        Math n1 = new Math(2);
-        Math n2 = new Math(3);
-        Math n4 = new Math(5);
-//      Math n3 = Math.add(n1,n2);
-        Math n3 = n1.add(n2);
-        System.out.println(n1.val);
-        System.out.println(n3.isEqual(n4));
+//        Test obj = new Test();
+//        obj.number = 1;
+//        fun(obj);
+////        System.out.println(obj.number) ;
+//        Math n1 = new Math(2);
+//        Math n2 = new Math(3);
+//        Math n4 = new Math(5);
+////      Math n3 = Math.add(n1,n2);
+//        Math n3 = n1.add(n2);
+//        System.out.println(n1.val);
+//        System.out.println(n3.isEqual(n4));
+//
+//
+        Developer d1 =new Developer();
+
+
 
 
     }
+//
+//    static void fun(Test n){
+//        n.number++;
 
-    static void fun(Test n){
-        n.number++;
-    }
+//    }
 }
 
 
