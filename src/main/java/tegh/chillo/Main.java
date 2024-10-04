@@ -132,46 +132,56 @@ public class Main {
 //        object from super class can handle with methode that same between al child of super class
 //        This objet call as polymorphic
 
-        Employee e1 = new Employee("achraf",
-                "asjjraf@gmail",
-                "211",
-                "IT",
-                "maroc",
-                1999,
-                5000);
-        System.out.println("employee Salary: " + e1.getSalary());
+//        Employee e1 = new Employee("achraf",
+//                "asjjraf@gmail",
+//                "211",
+//                "IT",
+//                "maroc",
+//                1999,
+//                5000);
+//        System.out.println("employee Salary: " + e1.getSalary());
+//
+//        e1 = new SalarieEmployee("achraf",
+//                "asjjraf@gmail",
+//                "211",
+//                "IT",
+//                "maroc",
+//                1999,
+//                5000,
+//                160);
+//        System.out.println("SalarieEmployee Salary: " + e1.getSalary());
+//
+//        e1 = new DailyEmployee("achraf",
+//                "asjjraf@gmail",
+//                "211",
+//                "IT",
+//                "maroc",
+//                1999,
+//                5000,
+//                175,
+//                30);
+//        System.out.println("DailyEployee Salary: " + e1.getSalary());
+//
+//        e1 =  new HourlyEmployee("achraf",
+//                "asjjraf@gmail",
+//                "211",
+//                "IT",
+//                "maroc",
+//                1999,
+//                5000,
+//                20,
+//                250);
+//        System.out.println("HourlyEmployee Salary: " + e1.getSalary());
 
-        e1 = new SalarieEmployee("achraf",
-                "asjjraf@gmail",
-                "211",
-                "IT",
-                "maroc",
-                1999,
-                5000,
-                160);
-        System.out.println("SalarieEmployee Salary: " + e1.getSalary());
-
-        e1 = new DailyEmployee("achraf",
-                "asjjraf@gmail",
-                "211",
-                "IT",
-                "maroc",
-                1999,
-                5000,
-                175,
-                30);
-        System.out.println("DailyEployee Salary: " + e1.getSalary());
-
-        e1 =  new HourlyEmployee("achraf",
-                "asjjraf@gmail",
-                "211",
-                "IT",
-                "maroc",
-                1999,
-                5000,
-                20,
-                250);
-        System.out.println("HourlyEmployee Salary: " + e1.getSalary());
+        Department dev=new Department(2344,"IT");
+        Employee2 e1 = new Employee2(1,
+                123.2f,"achraf","jd",
+                "asd",
+                "A",
+                "1245777",
+                "MAR",
+                2000,dev);
+        System.out.println(e1.toString());
 
     }
 //
