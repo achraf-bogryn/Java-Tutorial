@@ -173,16 +173,30 @@ public class Main {
 //                250);
 //        System.out.println("HourlyEmployee Salary: " + e1.getSalary());
 
-        Department dev=new Department(2344,"IT");
-        Employee2 e1 = new Employee2(1,
-                123.2f,"achraf","jd",
-                "asd",
-                "A",
-                "1245777",
-                "MAR",
-                2000,dev);
-        System.out.println(e1.toString());
+//        Department dev=new Department(2344,"IT");
+//        Employee2 e1 = new Employee2(1,
+//                123.2f,"achraf","jd",
+//                "asd",
+//                "A",
+//                "1245777",
+//                "MAR",
+//                2000,dev);
+//        System.out.println(e1.toString());
+       SUV suv = new SUV(22.3f , 22f ,4);
+//        System.out.println(suv.getHeight());
+//        System.out.println(suv.getWeight());
+//        System.out.println(suv.getNumberOfWheels());
+        Car2 car1 = new SUV();
+        fun(car1);
+        car1 = new Hatchback();
+        fun(car1);
 
+
+
+    }
+
+    static void fun(Car2 obj){
+        obj.autopilot();
     }
 //
 //    static void fun(Test n){
