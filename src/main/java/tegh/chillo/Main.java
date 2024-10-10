@@ -182,22 +182,22 @@ public class Main {
 //                "MAR",
 //                2000,dev);
 //        System.out.println(e1.toString());
-       SUV suv = new SUV(22.3f , 22f ,4);
+//       SUV suv = new SUV(22.3f , 22f ,4);
 //        System.out.println(suv.getHeight());
 //        System.out.println(suv.getWeight());
 //        System.out.println(suv.getNumberOfWheels());
-        Car2 car1 = new SUV();
-        fun(car1);
-        car1 = new Hatchback();
-        fun(car1);
+//        Car2 car1 = new SUV();
+//        fun(car1);
+//        car1 = new Hatchback();
+//        fun(car1);
 
 
 
     }
 
-    static void fun(Car2 obj){
-        obj.autopilot();
-    }
+//    static void fun(Car2 obj){
+//        obj.autopilot();
+//    }
 //
 //    static void fun(Test n){
 //        n.number++;
